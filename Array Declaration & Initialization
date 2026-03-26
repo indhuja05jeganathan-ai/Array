@@ -1,0 +1,12 @@
+class ArrayDeclaration {
+    public static void main(String[] args) {
+        int[] a;
+        a = new int[3];
+        a[0] = 10;
+        a[2] = 20;
+
+        System.out.println(a[0]);
+        System.out.println(a[2]);
+        System.out.println(a);
+    }
+}
